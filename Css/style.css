@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{  
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #C2FFF9;
+}
+
+.topcontainer{
+   
+    text-align: center;
+    background-color: #60d0e9;
+   
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.top{
+    font-size: 1.7rem;
+}
+
+
+#c1{
+    position: absolute;
+    right: 18em;
+    height: 3em;
+    width: 10em;
+    top: 3em;
+}
+
+#c2{
+    position: absolute;
+    left: 22em;
+    height: 3em;
+    width: 8em;
+    top: 22em;
+}
+
+.mountain{
+    
+    height: 25em;
+    width: 40em;
+    padding-top: 2em;
+    position: relative;
+    top: 10px;
+    }
+h1{
+     padding-top: 160px;
+     font-family: 'Love Light', cursive;
+     font-size: 5.62em;
+     color: #a5670b;
+
+}
+
+.middle-container{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bottom-container{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.birds{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top:5rem;
+    left:13rem;
+}
+.birds2{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    top:19rem;
+    right:20rem;
+}
+
+.profile{
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    padding: 2rem;
+ 
+}
+.profile-container{
+    position: relative;
+
+}
+
+
+.profile-text{
+   
+    height: auto;
+    width:39%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+   
+}
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills{
+ 
+    position: relative;
+}
+
+.cpp{
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+   left: 16rem;
+    top: 6rem;
+
+}
+
+/* IMP note:  At first i wrote position: absolute, but it will make it remove from the flow of the html code, ie the elemnent with position: absolute will be out of the parent container. which is not desireable. */
+
+.skills-heading{
+    margin: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.cpp-text{
+   
+    width: 28rem;
+    height: auto;
+    padding: 2rem;
+    position: relative;
+    left: 10rem;
+    bottom: 6rem;
+    text-align: justify;
+}
+
+
+.pyimg{
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+   right: 16rem;
+    top: 8rem;
+
+}
+.py-text{
+    
+    width: 28rem;
+    height: auto;
+    padding: 2rem;
+    position: relative;
+    left: 47rem;
+    bottom: 3rem;
+    text-align: justify;
+}
+
+.contact-me{
+    padding: 2rem;
+    
+   
+}
+.contact-text{
+   
+    margin: 1.7rem auto;
+    width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn{
+    border: 1px solid black;
+    background-color: rgb(179, 235, 245);
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+.bottom-container{
+    background-color: #71DFE7;
+    padding: 1rem;
+}
+.footer-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4rem;
+    margin: 1rem 2rem;
+    
+}
+
+.foot-para{
+    margin: 0rem auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 3rem;
+}
+
+hr{
+    width: 5%;
+    border-top: 5px dotted grey;
+    height: 0px;
+    margin: 0 auto;
+}
